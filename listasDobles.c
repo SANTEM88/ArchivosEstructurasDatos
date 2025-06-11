@@ -4,8 +4,7 @@
 * Compilador: TDM-GCC 4.9.2 x64
 * Objetivo: Construya un programa que use una lista doblemente enlazada
 * para gestionar una base de datos de contactos.
-* cada contacto se tiene: Nombre, Apellido, teléfono, whatsapp, email, estado (por defecto Activo, otro estado: Borrado).
-* Y otras disposiciones.
+* cada contacto se tiene: Nombre, Apellido, telÃ©fono, whatsapp, email, estado (por defecto Activo, otro estado: Borrado).
 */
 #include <string.h>
 #include <conio.h>
@@ -216,14 +215,14 @@ void mostrar(struct nodo **principal) {
         switch (tecla)
         {
             case ARRIBA:
-            case IZQUIERDA: // Asumiendo código correcto para la flecha izquierda
+            case IZQUIERDA: // Asumiendo cï¿½digo correcto para la flecha izquierda
                 if (temp->ant != NULL)
                 {
                     temp = temp->ant; // Navega hacia el nodo anterior
                 }
                 break;
             case ABAJO:
-            case DERECHA: // Asumiendo código correcto para la flecha derecha
+            case DERECHA: // Asumiendo cï¿½digo correcto para la flecha derecha
                 if (temp->sig != NULL)
                 {
                     temp = temp->sig; // Navega hacia el nodo siguiente

@@ -1,7 +1,6 @@
 /*
 *
 * Nombre: Santiago Enriquez Martinez
-* Codigo: 1010105344
 * Tema: Arboles binarios
 * compilador: TDM-GCC x64
 * Fecha: 4/21/2024
